@@ -54,3 +54,9 @@ class MyConditionalBuilder extends StatelessWidget
     return fallback;
   }
 }
+
+Widget buildSeparator() => Container(
+  height: 1.0,
+  width: double.infinity,
+  color: Colors.grey[300],
+);
